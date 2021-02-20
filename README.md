@@ -11,7 +11,7 @@
 1. 在数据库中运行sql文件（sports.sql）
 
 **后端代码sports-backend中**
-2. 在config.local中配置数据库连接账号密码
+2. 在`config.local`中配置数据库连接账号密码
 3. 执行下列命令
 ``` bash
 # install dependencies（安装依赖包）
@@ -28,7 +28,7 @@ npm run stop
 ```
 
 **前端代码sports-web中**
-4. 前端代码中配置后端启动的接口url(http://127.0.0.1:7001)
+4. 前端代码`.env`中配置后端启动的接口url(http://127.0.0.1:7001)
 5. 执行下列命令
 ``` bash
 # install dependencies(安装依赖)
