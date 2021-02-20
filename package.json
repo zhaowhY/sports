@@ -1,0 +1,14 @@
+{
+  "name": "sports",
+  "version": "1.0.0",
+  "description": "Sports event management system",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "sport",
+    "management",
+    "system"
+  ],
+  "author": "kongkong99",
+  "license": "ISC"
+}

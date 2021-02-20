@@ -1,0 +1,106 @@
+@import './variable'
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select
+  margin 0
+  padding 0
+
+body
+  font Helvetica, Arial, sans-serif
+  background #fff
+  text-size-adjust 100%
+
+a
+  text-decoration none
+
+em
+  font-style normal
+
+li
+  list-style none
+
+img
+  border 0
+  vertical-align middle
+
+table
+  border-collapse collapse
+  border-spacing 0
+
+p
+  word-wrap break-word
+
+.btn
+  font-size 16px
+  display inline-block
+  margin 0 8px
+  font-weight 600
+  color rgba(255, 255, 255, 0.78)
+  text-align center
+  line-height 32px
+  height 32px
+  width 200px
+  cursor pointer
+  bg-linear(rgba(45, 100, 255, 0.54), rgba(133, 75, 255, 0.54))
+  border-linear(rgba(26, 123, 197, 1), rgba(136, 85, 244, 1))
+
+  &:hover
+    bg-linear(rgba(45, 100, 255, 0.8), rgba(133, 75, 255, 0.8))
+
+#app
+  font-family 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  color #2c3e50
+  font-size 16px
+  width 100%
+
+#nav
+  padding 32px
+
+  a
+    font-weight bold
+    color #2c3e50
+
+    &.router-link-exact-active
+      color #42b983
+
+.el-card__body
+  padding 7px 13px
+
+.el-dialog__header
+  font-weight bold
+
+.el-dialog__body
+  padding 15px 20px
+
+.el-form-item__label
+  font-weight bold
+
+.el-slider__button
+  width 9px
+  height 9px
+
+.wrapper > .el-dialog
+  background #fafafa
+  margin-top 5vh !important
+  margin-bottom 30px !important
+
+.dot-message > .el-card__body
+  padding 0
+
+.el-message
+  font-size 14px !important
+  line-height 14px
+
+.el-loading-mask
+  z-index 9999
+
+.el-menu-item
+  font-size 18px
+
+.el-input, .el-textarea
+  width 80%
+  max-width 350px
+
+.margin-left-10
+  margin-left 10px
